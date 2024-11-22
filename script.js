@@ -332,27 +332,28 @@ function clearBoard() {
 // Once you get rest of the rest of the assignment completed, work on making this function
 // calculate the best hand total between A = 1 and A = 11. Hint: there can only be one high ace in a hand
 function getHandTotal(hand) {
-
+    let toatal = 0;
+    for( let i = 0; i < hand.length, i++ ) 
 }
 
 // Adds a card to the player's hand array and updates UI with the card
 // TODO: Call this function from Hit button click
 // TODO: Implement this function
 function playerHit() {
-
+    let button = document.getElementById("play-button");
 }
 
 // Adds a card to the dealer's hand array and updates UI with the card
 // TODO: Implement this function
 function dealerHit() {
-
+    addDealerCard(playerHand[0]);
 }
 
 // Hides hit and stay buttons during dealer's turn
 // Called from dealerTurn()
 // TODO: Implement this function
 function hidePlayerControls() {
-    
+
 }
 
 // Shows hit and stay buttons
